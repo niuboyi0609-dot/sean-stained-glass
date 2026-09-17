@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="上传一张主体图，自动分析色彩、明暗和画面方向，从完整背景库随机抽取七组背景与角度提示词。"
+    />
+    <title>背景与角度提示词生成器</title>
+    <link rel="stylesheet" href="/prompt-generator.css?v=20260917-bookend-18" />
+  </head>
+  <body>
+    <div class="portfolio-atmosphere" aria-hidden="true">
+      <img class="portfolio-art portfolio-art-hummingbird" src="/portfolio-bg/hummingbird-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-eagle" src="/portfolio-bg/eagle-guardian-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-athena" src="/portfolio-bg/athena-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-abstract" src="/portfolio-bg/abstract-bird-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-green" src="/portfolio-bg/green-bird-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-day2-witch" src="/portfolio-subjects/day2-9-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-day2-dog" src="/portfolio-subjects/day2-10-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-day2-cats" src="/portfolio-subjects/day2-12-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-day2-fox" src="/portfolio-subjects/day2-13-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-day2-blackcat" src="/portfolio-subjects/day2-15-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-art portfolio-art-day2-mooncat" src="/portfolio-subjects/day2-18-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-sticker sticker-sticker-hummingbird" src="/portfolio-bg/hummingbird-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-sticker sticker-sticker-eagle" src="/portfolio-bg/eagle-guardian-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-sticker sticker-sticker-athena" src="/portfolio-bg/athena-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-sticker sticker-sticker-red" src="/portfolio-bg/red-abstract-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-sticker sticker-sticker-day2-witch" src="/portfolio-subjects/day2-9-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-sticker sticker-sticker-day2-fox" src="/portfolio-subjects/day2-13-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-sticker sticker-sticker-day2-blackcat" src="/portfolio-subjects/day2-15-web.jpg" alt="" decoding="async" />
+      <img class="portfolio-sticker sticker-sticker-day2-mooncat" src="/portfolio-subjects/day2-18-web.jpg" alt="" decoding="async" />
+    </div>
+    <header class="topbar">
+      <a class="back-link" href="/">返回工作台</a>
+      <div class="heading">
+        <p>PROMPT MATCHER</p>
+        <h1>背景与角度提示词生成器</h1>
+      </div>
+      <button class="button button-ghost" id="downloadAllButton" type="button" disabled>
+        下载全部
+      </button>
+    </header>
+
+    <main>
+      <section class="panel upload-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="step">01 / IMAGE</p>
+            <h2>上传主体素材</h2>
+          </div>
+          <button class="text-button" id="clearButton" type="button" disabled>清空</button>
+        </div>
+
+        <div class="product-type-strip">
+          <label class="field-group">
+            <span>产品款式</span>
+            <select id="productTypeSelect">
+              <option value="hanging" selected>挂链款</option>
+              <option value="bookend">书档款（木质底座）</option>
+            </select>
+          </label>
+          <p class="product-type-hint" id="productTypeHint">
+            挂链款保持现有流程，上传一张主体图即可。
+          </p>
+        </div>
+
+        <div id="singleUploadArea">
+          <label class="dropzone" id="dropzone">
+            <input id="imageInput" type="file" accept="image/png,image/jpeg,image/webp" />
+            <div class="upload-symbol" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <strong>点击、拖入或直接粘贴图片</strong>
+            <span>系统会在本地分析主色、明暗、冷暖、对比度和画面方向。</span>
+            <img id="previewImage" alt="上传主体预览" hidden />
+          </label>
+        </div>
+
+        <div class="bookend-upload-grid" id="bookendUploadArea" hidden>
+          <label class="dropzone bookend-dropzone" id="leftDropzone">
+            <input id="leftImageInput" type="file" accept="image/png,image/jpeg,image/webp" />
+            <span class="bookend-slot-label">左书挡主体</span>
+            <strong>上传左书挡图片</strong>
+            <span>两张相同则默认左右镜像；两张不同则分别生成左右主体。</span>
+            <img id="leftPreviewImage" alt="左书挡主体预览" hidden />
+          </label>
+          <label class="dropzone bookend-dropzone" id="rightDropzone">
+            <input id="rightImageInput" type="file" accept="image/png,image/jpeg,image/webp" />
+            <span class="bookend-slot-label">右书挡主体</span>
+            <strong>上传右书挡图片</strong>
+            <span>两张相同则默认左右镜像；两张不同则分别生成左右主体。</span>
+            <img id="rightPreviewImage" alt="右书挡主体预览" hidden />
+          </label>
+        </div>
+
+        <div class="scene-options">
+          <label class="field-group">
+            <span>时间氛围</span>
+            <select id="timeSelect">
+              <option value="random" selected>随机抽取</option>
+              <option value="morning">早上</option>
+              <option value="noon">中午</option>
+              <option value="afternoon">下午</option>
+              <option value="sunset">夕阳 / 黄昏</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="panel analysis-panel" id="analysisPanel" hidden>
+        <div class="panel-heading">
+          <div>
+            <p class="step">02 / ANALYSIS</p>
+            <h2>主体风格分析</h2>
+          </div>
+        </div>
+        <div class="analysis-grid">
+          <div class="analysis-block">
+            <span>主色</span>
+            <div class="palette" id="palette"></div>
+          </div>
+          <div class="analysis-stat">
+            <span>明暗</span>
+            <strong id="brightnessValue">-</strong>
+          </div>
+          <div class="analysis-stat">
+            <span>冷暖</span>
+            <strong id="temperatureValue">-</strong>
+          </div>
+          <div class="analysis-stat">
+            <span>饱和度</span>
+            <strong id="saturationValue">-</strong>
+          </div>
+          <div class="analysis-stat">
+            <span>对比度</span>
+            <strong id="contrastValue">-</strong>
+          </div>
+          <div class="analysis-stat">
+            <span>画面方向</span>
+            <strong id="orientationValue">-</strong>
+          </div>
+        </div>
+        <div class="tags" id="analysisTags"></div>
+      </section>
+
+      <section class="panel library-panel">
+        <div class="panel-heading results-heading">
+          <div>
+            <p class="step">03 / SUBJECT + MATERIAL</p>
+            <h2>主体变换与玻璃材质提示词</h2>
+          </div>
+          <div class="result-actions">
+            <button class="button button-primary" id="copyLibraryButton" type="button">
+              一次复制全部
+            </button>
+          </div>
+        </div>
+        <div class="color-variable-box">
+          <div class="color-variable-controls">
+            <label class="field-group">
+              <span>主体变换模式</span>
+              <select id="subjectModeSelect">
+                <option value="abstract" selected>抽象重构（青蛙剑士式）</option>
+                <option value="preserve">仅换颜色（主体结构不变）</option>
+                <option value="standard">标准模式（现有全部要求）</option>
+              </select>
+            </label>
+            <label class="field-group">
+              <span>色彩提示词变量</span>
+              <select id="colorVariableSelect">
+                <option value="none" selected>不指定，保持图一原有色彩</option>
+                <option value="custom">自定义颜色（单选、双选、多选）</option>
+                <optgroup label="LightCoveGifts 高饱和多彩">
+                  <option value="lightcove-core">LightCove 总控：高饱和多色拼片</option>
+                  <option value="lightcove-nature">LightCove 自然系列：翠绿青蓝与暖色鸟类</option>
+                  <option value="lightcove-christmas">LightCove 圣诞系列：红绿金蓝白</option>
+                  <option value="lightcove-autumn">LightCove 秋季系列：橙黄红棕橄榄绿</option>
+                  <option value="lightcove-rainbow">LightCove 彩虹系列：完整七色</option>
+                </optgroup>
+                <optgroup label="SunArtGlassGallery 自然渐变">
+                  <option value="sunart-core">SunArt 总控：少色系通透渐变</option>
+                  <option value="sunart-botanical">SunArt 花卉植物：粉紫蓝绿乳白</option>
+                  <option value="sunart-birds">SunArt 鸟类：红黄蓝灰与叶绿</option>
+                  <option value="sunart-fruits">SunArt 水果：宝蓝柠檬黄橙桃红</option>
+                  <option value="sunart-romance">SunArt 浪漫系列：腮红粉丁香紫天蓝</option>
+                  <option value="sunart-gothic">SunArt 暗黑奇幻：炭黑灰紫苔绿蘑菇红</option>
+                </optgroup>
+              </select>
+            </label>
+            <button class="button button-secondary" id="randomColorButton" type="button">
+              随机抽取色彩
+            </button>
+          </div>
+          <div class="color-variable-preview">
+            <div class="color-swatches" id="colorSwatches"></div>
+            <p class="color-variable-description" id="colorVariableDescription">
+              当前不指定色彩变量，保持图一的原有色相体系和颜色分区。
+            </p>
+          </div>
+          <div class="color-order-editor" id="colorOrderEditor" hidden>
+            <div class="color-order-editor-heading">
+              <strong>配色顺序</strong>
+              <button class="copy-button" id="resetColorOrderButton" type="button">
+                恢复原顺序
+              </button>
+            </div>
+            <div class="color-order-list" id="colorOrderList"></div>
+          </div>
+          <div class="pinterest-color-browser">
+            <div class="pinterest-color-browser-heading">
+              <div>
+                <strong>Pinterest 精选配色</strong>
+                <p id="pinterestPaletteCount">29 组配色 · 当前使用原图全色</p>
+              </div>
+              <div class="palette-size-filters" id="paletteSizeFilters" role="group" aria-label="配色数量">
+                <button class="palette-size-filter is-active" data-size="auto" type="button" aria-pressed="true">原图全色</button>
+                <button class="palette-size-filter" data-size="2" type="button" aria-pressed="false">双色</button>
+                <button class="palette-size-filter" data-size="3" type="button" aria-pressed="false">三色</button>
+                <button class="palette-size-filter" data-size="4" type="button" aria-pressed="false">四色</button>
+                <button class="palette-size-filter" data-size="5" type="button" aria-pressed="false">五色</button>
+                <button class="palette-size-filter" data-size="6" type="button" aria-pressed="false">六色</button>
+              </div>
+            </div>
+            <div class="pinterest-palette-grid" id="pinterestPaletteGrid"></div>
+          </div>
+          <div class="custom-color-editor" id="customColorEditor" hidden>
+            <div class="custom-color-editor-heading">
+              <strong>自定义颜色列表</strong>
+              <button class="copy-button" id="addCustomColorButton" type="button">
+                添加颜色
+              </button>
+            </div>
+            <div class="custom-color-list" id="customColorList"></div>
+            <p class="custom-color-hint">
+              可选择1至8个颜色。一个颜色为单色，两个为双色，三个及以上为多色；顺序会影响主色、辅助色和点缀色。
+            </p>
+          </div>
+          <div class="shape-variable-panel">
+            <div class="shape-variable-controls">
+              <label class="field-group">
+                <span>主体形状变量</span>
+                <select id="shapeVariableSelect">
+                  <option value="random" selected>随机抽取（规则形状 / 不规则形状）</option>
+                  <option value="regular">规则几何形状（圆形、方形、椭圆、三角形等）</option>
+                  <option value="irregular">不规则主体形状（动物、人物或图案自身轮廓）</option>
+                </select>
+              </label>
+              <button class="button button-secondary" id="randomShapeButton" type="button">
+                随机抽取形状
+              </button>
+            </div>
+            <p class="shape-variable-description" id="shapeVariableDescription">
+              当前随机在规则几何形状与不规则主体形状中抽取一种，不同时混用。
+            </p>
+          </div>
+        </div>
+        <div class="library-combined">
+          <section class="library-column">
+            <div class="library-column-heading">
+              <strong>主体变换提示词（整轮总共生成3张）</strong>
+              <button class="copy-button" id="copySubjectButton" type="button">复制主体全部</button>
+            </div>
+            <textarea id="subjectPromptBox" readonly></textarea>
+          </section>
+          <section class="library-column">
+            <div class="library-column-heading">
+              <strong>玻璃材质提示词（整轮总共生成3张）</strong>
+              <button class="copy-button" id="copyMaterialButton" type="button">复制材质全部</button>
+            </div>
+            <textarea id="materialPromptBox" readonly></textarea>
+          </section>
+        </div>
+      </section>
+
+      <section class="panel selection-panel">
+        <div class="panel-heading results-heading">
+          <div>
+            <p class="step">04 / SELECT ONE</p>
+            <h2>从三张照片选一张的提示词</h2>
+          </div>
+          <button class="button button-secondary" id="copySelectionButton" type="button">
+            复制选择提示词
+          </button>
+        </div>
+        <textarea
+          class="selection-textarea"
+          id="selectionPromptBox"
+          readonly
+          aria-label="从三张照片选一张的提示词"
+        ></textarea>
+      </section>
+
+      <section class="panel results-panel" id="resultsPanel">
+        <div class="panel-heading results-heading">
+          <div>
+            <p class="step">05 / SCENES</p>
+            <h2>七组全库随机背景与拍摄提示词</h2>
+          </div>
+          <div class="result-actions">
+            <button
+              class="button button-secondary"
+              id="regenerateButton"
+              type="button"
+              disabled
+            >
+              重新匹配
+            </button>
+            <button class="button button-primary" id="copyAllButton" type="button" disabled>
+              复制七组
+            </button>
+          </div>
+        </div>
+        <div class="result-list" id="resultList">
+          <div class="results-empty" id="resultsEmpty">
+            上传主体图片后，会从完整背景库随机抽取七种不同场景，并随机组合七种拍摄手法。每组生成3张，重新匹配会避开上一轮背景。
+          </div>
+        </div>
+      </section>
+
+      <section class="panel description-panel" id="descriptionPanel">
+        <div class="panel-heading results-heading">
+          <div>
+            <p class="step">06 / LISTING COPY</p>
+            <h2>商品简介与送礼寓意</h2>
+          </div>
+          <div class="result-actions">
+            <button
+              class="button button-secondary"
+              id="regenerateCopyButton"
+              type="button"
+              disabled
+            >
+              重新生成
+            </button>
+            <button
+              class="button button-primary"
+              id="copyDescriptionButton"
+              type="button"
+              disabled
+            >
+              复制简介
+            </button>
+          </div>
+        </div>
+        <div class="description-toolbar">
+          <label class="field-group copy-subject-field">
+            <span>图案名称（可选）</span>
+            <input
+              id="copySubjectInput"
+              type="text"
+              placeholder="例如 Hummingbird、Cardinal、Sunflower"
+              autocomplete="off"
+            />
+          </label>
+          <p class="description-status" id="copyStatus">
+            上传主体图片后，会自动生成商品简介草稿；配置视觉模型后会进一步识别图案、送礼对象和寓意。
+          </p>
+        </div>
+        <textarea
+          class="description-textarea"
+          id="descriptionBox"
+          aria-label="商品简介与送礼寓意"
+          placeholder="上传主体图片后，这里会生成 Etsy 标题、英文商品简介、送礼对象、图案寓意、使用场景和搜索关键词。"
+        ></textarea>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="/prompt-generator.js?v=20260917-bookend-18"></script>
+  </body>
+</html>

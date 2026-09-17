@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="上传图案和风格参考，生成 2D 悬空彩绘玻璃产品图和真实商品摄影背景。"
+    />
+    <title>彩绘玻璃生图工作台</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div>
+          <p class="eyebrow">STAINED GLASS STUDIO</p>
+          <h1>彩绘玻璃生图工作台</h1>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <a class="button button-ghost" href="/prompt-generator.html">背景提示词生成器</a>
+        <div class="status-pill" id="serverStatus">
+          <span class="status-dot"></span>
+          <span>检查生图服务</span>
+        </div>
+        <button class="button button-ghost" id="settingsButton" type="button">
+          <span class="button-icon" aria-hidden="true">⚙</span>
+          设置
+        </button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="panel panel-input" aria-labelledby="inputTitle">
+        <div class="panel-heading">
+          <div>
+            <p class="step-label">01 / INPUT</p>
+            <h2 id="inputTitle">上传图片</h2>
+          </div>
+          <button class="text-button" id="clearImagesButton" type="button">清空</button>
+        </div>
+
+        <label class="dropzone" id="subjectDropzone">
+          <input id="subjectInput" type="file" accept="image/png,image/jpeg,image/webp" />
+          <span class="dropzone-index">图一</span>
+          <span class="dropzone-title">主体 / 图案</span>
+          <span class="dropzone-help">点击、拖入或直接粘贴图片。这里决定最终图案和轮廓。</span>
+          <span class="dropzone-action">选择图片</span>
+          <button class="paste-button" type="button" data-paste-kind="subject">粘贴图一</button>
+          <img class="dropzone-preview" id="subjectPreview" alt="主体预览" hidden />
+        </label>
+
+        <label class="dropzone" id="styleDropzone">
+          <input id="styleInput" type="file" accept="image/png,image/jpeg,image/webp" />
+          <span class="dropzone-index">图二</span>
+          <span class="dropzone-title">玻璃风格参考</span>
+          <span class="dropzone-help">可选。借用玻璃材质、铅线、锤纹，以及挂链、圆环和连接方式，不复制玻璃图案。</span>
+          <span class="dropzone-action">选择参考图</span>
+          <button class="paste-button" type="button" data-paste-kind="style">粘贴图二</button>
+          <img class="dropzone-preview" id="stylePreview" alt="风格参考预览" hidden />
+        </label>
+
+        <label class="dropzone dropzone-background" id="backgroundDropzone">
+          <input id="backgroundImageInput" type="file" accept="image/png,image/jpeg,image/webp" />
+          <span class="dropzone-index">图三</span>
+          <span class="dropzone-title">背景参考 / 自动反推提示词</span>
+          <span class="dropzone-help">
+            上传背景图后，可用 DeepSeek 或豆包视觉模型自动生成背景提示词，也可打开 ImageToPrompt 插件处理。
+          </span>
+          <span class="dropzone-action">选择背景图</span>
+          <button class="paste-button" type="button" data-paste-kind="background">粘贴图三</button>
+          <img class="dropzone-preview" id="backgroundPreview" alt="背景参考预览" hidden />
+        </label>
+
+        <div class="background-tools">
+          <a
+            class="button button-secondary compact-button"
+            href="https://imagetoprompt.org/zh"
+            target="_blank"
+            rel="noreferrer"
+          >
+            打开 ImageToPrompt
+          </a>
+          <a
+            class="button button-ghost compact-button"
+            href="https://chromewebstore.google.com/detail/image-to-prompt/iiaahpcjihmkdfkcndlhogegbblbookp"
+            target="_blank"
+            rel="noreferrer"
+          >
+            安装 Chrome 插件
+          </a>
+          <button class="button button-secondary compact-button" id="describeButton" type="button">
+            自动反推背景提示词
+          </button>
+        </div>
+
+        <label class="field-group background-prompt-field">
+          <span class="field-label">图三背景提示词</span>
+          <textarea
+            id="backgroundPromptInput"
+            rows="10"
+            placeholder="上传图三后点击自动反推，或从 ImageToPrompt 复制结果粘贴到这里。"
+          ></textarea>
+          <span class="field-help">
+            这段提示词会自动并入最终生图提示词，图三图片也会作为背景参考一起发送。
+          </span>
+        </label>
+
+        <div class="privacy-note">
+          <span aria-hidden="true">●</span>
+          本地玻璃化预览不会上传图片；点击“AI 生成”“用豆包网页生成”或“自动反推背景提示词”时会发送到对应模型。
+        </div>
+      </section>
+
+      <section class="panel panel-settings" aria-labelledby="settingsTitle">
+        <div class="panel-heading">
+          <div>
+            <p class="step-label">02 / DIRECT</p>
+            <h2 id="settingsTitle">生成设置</h2>
+          </div>
+          <span class="prompt-count" id="promptCount">0 字</span>
+        </div>
+
+        <div class="field-group">
+          <span class="field-label">生成类型</span>
+          <div class="segmented" id="modeTabs" role="tablist" aria-label="生成类型">
+            <button class="segment is-active" type="button" data-mode="glass">彩玻化</button>
+            <button class="segment" type="button" data-mode="anime">2D 动漫</button>
+            <button class="segment" type="button" data-mode="bookend">书挡</button>
+            <button class="segment" type="button" data-mode="hook">换挂钩</button>
+          </div>
+        </div>
+
+        <div class="two-column">
+          <label class="field-group">
+            <span class="field-label">画面比例</span>
+            <select id="ratioSelect">
+              <option value="1:1">1:1 方图</option>
+              <option value="3:4">3:4 竖图</option>
+              <option value="4:3">4:3 横图</option>
+            </select>
+          </label>
+          <label class="field-group">
+            <span class="field-label">生成数量</span>
+            <select id="countSelect">
+              <option value="1">1 张</option>
+              <option value="2">2 张</option>
+              <option value="3" selected>3 张</option>
+              <option value="4">4 张</option>
+              <option value="6">6 张</option>
+              <option value="10">10 张</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="field-group">
+          <span class="field-label">场景 / 背景</span>
+          <select id="backgroundSelect"></select>
+        </label>
+
+        <div class="field-group">
+          <span class="field-label">约束开关</span>
+          <div class="toggle-grid">
+            <label class="toggle">
+              <input type="checkbox" id="keepSubject" checked />
+              <span>主体不变</span>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" id="flat2d" checked />
+              <span>2D 平面悬空</span>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" id="cuttable" checked />
+              <span>边缘可切割</span>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" id="filledColor" checked />
+              <span>色彩填满不留白</span>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" id="blackLead" checked />
+              <span>黑色铅线</span>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" id="blurBackground" checked />
+              <span>背景虚化</span>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" id="singleSupport" />
+              <span>单边 / 单尖支撑</span>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" id="productPhoto" checked />
+              <span>商品摄影质感</span>
+            </label>
+          </div>
+        </div>
+
+        <label class="field-group">
+          <span class="field-label">自定义要求</span>
+          <textarea
+            id="customPrompt"
+            rows="4"
+            placeholder="例如：颜色饱和度翻倍，胡须也整理顺，不要复制参考图的颜色。"
+          ></textarea>
+        </label>
+
+        <div class="prompt-preview">
+          <div class="prompt-preview-heading">
+            <span class="field-label">最终提示词</span>
+            <button class="text-button" id="copyPromptButton" type="button">复制提示词</button>
+          </div>
+          <textarea id="promptOutput" rows="9" spellcheck="false"></textarea>
+        </div>
+
+        <div class="action-row">
+          <button class="button button-secondary" id="localPreviewButton" type="button">
+            本地玻璃化预览
+          </button>
+          <button class="button button-primary" id="generateButton" type="button">
+            <span class="button-icon" aria-hidden="true">✦</span>
+            AI 生成
+          </button>
+        </div>
+
+        <div class="extension-connector" id="extensionConnector">
+          <div class="extension-status">
+            <span class="extension-dot" aria-hidden="true"></span>
+            <div>
+              <strong id="extensionStatusTitle">豆包网页连接器</strong>
+              <span id="extensionStatusText">正在检测连接器...</span>
+            </div>
+          </div>
+          <div class="extension-actions">
+            <button class="text-button" id="extensionRefreshButton" type="button">重新检测</button>
+            <button class="button button-primary" id="doubaoWebButton" type="button">
+              用豆包网页生成
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel-output" aria-labelledby="outputTitle">
+        <div class="panel-heading">
+          <div>
+            <p class="step-label">03 / RESULT</p>
+            <h2 id="outputTitle">生成结果</h2>
+          </div>
+          <span class="result-status" id="resultStatus">等待图片</span>
+        </div>
+
+        <div class="result-stage" id="resultStage">
+          <div class="empty-state" id="emptyState">
+            <div class="empty-mosaic" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <h3>先上传一张图片</h3>
+            <p>你可以先看本地玻璃化效果，再决定是否调用 AI 生成完整背景。</p>
+          </div>
+          <canvas id="resultCanvas" hidden></canvas>
+          <div class="result-grid" id="resultGrid"></div>
+        </div>
+
+        <div class="result-footer">
+          <p id="resultMeta">未经上传的图像不会离开本机。</p>
+          <button class="button button-ghost" id="downloadAllButton" type="button" disabled>
+            下载结果
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="settings-dialog" id="settingsDialog">
+      <form method="dialog">
+        <div class="dialog-heading">
+          <div>
+            <p class="step-label">CONNECTION</p>
+            <h2>生图服务设置</h2>
+          </div>
+          <button class="icon-button" value="cancel" aria-label="关闭设置" type="submit">×</button>
+        </div>
+        <label class="field-group">
+          <span class="field-label">默认生图提供方</span>
+          <select id="providerSelect">
+            <option value="deepseek">DeepSeek 提示词 / 视觉（官方不生图）</option>
+            <option value="doubao">豆包 Seedream</option>
+            <option value="agnes">Agnes Image 2.0 Flash</option>
+          </select>
+        </label>
+
+        <div class="provider-settings" data-provider-panel="deepseek">
+          <label class="field-group">
+            <span class="field-label">DeepSeek API Key</span>
+            <input
+              id="deepseekApiKeyInput"
+              type="password"
+              autocomplete="off"
+              placeholder="DeepSeek 或兼容网关 API Key"
+            />
+          </label>
+          <label class="field-group">
+            <span class="field-label">DeepSeek API Base URL</span>
+            <input
+              id="deepseekBaseUrlInput"
+              type="text"
+              autocomplete="off"
+              value="https://api.deepseek.com/v1"
+            />
+          </label>
+          <div class="two-column">
+            <label class="field-group">
+              <span class="field-label">生图模型</span>
+              <input id="deepseekImageModelInput" type="text" value="deepseek-image" />
+            </label>
+            <label class="field-group">
+              <span class="field-label">视觉反推模型</span>
+              <input id="deepseekVisionModelInput" type="text" value="deepseek-chat" />
+            </label>
+          </div>
+          <span class="field-help">
+            网站按 OpenAI 兼容图片生成协议调用。若 DeepSeek 官方接口没有生图端点，请填写支持图片生成的兼容网关地址和模型名。
+          </span>
+          <div class="provider-warning">
+            官方 <code>api.deepseek.com</code> 不提供图片生成端点。选择 DeepSeek 官方地址时，网站会用它分析提示词，并自动回退到本地玻璃化预览，不再显示生图失败。
+          </div>
+        </div>
+
+        <div class="provider-settings" data-provider-panel="doubao" hidden>
+          <label class="field-group">
+            <span class="field-label">豆包 API Key</span>
+            <input
+              id="doubaoApiKeyInput"
+              type="password"
+              autocomplete="off"
+              placeholder="火山方舟 ARK API Key"
+            />
+          </label>
+          <label class="field-group">
+            <span class="field-label">豆包 API Base URL</span>
+            <input
+              id="doubaoBaseUrlInput"
+              type="text"
+              autocomplete="off"
+              value="https://ark.cn-beijing.volces.com/api/v3"
+            />
+          </label>
+          <div class="two-column">
+            <label class="field-group">
+              <span class="field-label">生图模型</span>
+              <input id="doubaoImageModelInput" type="text" value="doubao-seedream-4-0-250828" />
+            </label>
+            <label class="field-group">
+              <span class="field-label">视觉反推模型</span>
+              <input id="doubaoVisionModelInput" type="text" value="doubao-seed-1-6-250615" />
+            </label>
+          </div>
+          <span class="field-help">
+            只保存在当前浏览器 sessionStorage，并仅由本机服务器转发到豆包方舟接口。
+          </span>
+        </div>
+
+        <div class="provider-settings" data-provider-panel="agnes" hidden>
+          <label class="field-group">
+            <span class="field-label">Agnes API Key</span>
+            <input id="agnesApiKeyInput" type="password" autocomplete="off" placeholder="sk-..." />
+            <span class="field-help">
+              Agnes 作为备用生图服务。豆包视觉反推仍需豆包 API Key。
+            </span>
+          </label>
+        </div>
+        <div class="dialog-actions">
+          <button class="button button-secondary" id="clearApiKeyButton" type="button">清除密钥</button>
+          <button class="button button-primary" value="save" type="submit">保存到本会话</button>
+        </div>
+      </form>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js"></script>
+  </body>
+</html>

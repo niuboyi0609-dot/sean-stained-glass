@@ -1,0 +1,1917 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-14T09:37:34.663Z",
+  "sourceUpdatedAt": "2026-09-14T09:37:07.827Z",
+  "source": "https://www.pinterest.com/niuboyi/%E8%83%8C%E6%99%AF/",
+  "rules": {
+    "lightSuffix": "玻璃主体产生的影子、投影、倒影和焦散必须有颜色，不能是纯黑、深灰或灰黑色实心剪影。",
+    "defaultSource": "pinterest:niuboyi/背景"
+  },
+  "total": 101,
+  "items": [
+    {
+      "id": "pinterest-01",
+      "name": "石材圆桌与棕榈叶影",
+      "group": "warm-minimal",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "暖米色房间，低矮圆形石材餐台，白色亚麻布，左侧大型棕榈绿植，木质餐椅。",
+      "light": "强烈午后阳光透过百叶窗，在墙面和桌面形成清晰棕榈叶影。",
+      "tags": [
+        "warm-minimal",
+        "warm",
+        "bright",
+        "strong"
+      ],
+      "signature": "401ce06fbddffe8cfbcef262530702b1",
+      "imageUrl": "https://i.pinimg.com/236x/40/1c/e0/401ce06fbddffe8cfbcef262530702b1.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941399956/"
+    },
+    {
+      "id": "pinterest-new-01",
+      "name": "常春藤石拱门花园",
+      "group": "garden",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "古老石墙被浓密常春藤覆盖，中央形成不规则拱形开口，开口外是明亮的树林、灌木和自然花园。",
+      "light": "清晨到上午的柔和自然光从花园方向照入，石墙偏暗、外部绿意明亮，形成自然的明暗框景。",
+      "tags": [
+        "garden",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "aea0d1e69fd8ceb1f8b1175e1cfc19bc",
+      "imageUrl": "https://i.pinimg.com/236x/ae/a0/d1/aea0d1e69fd8ceb1f8b1175e1cfc19bc.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941730035/"
+    },
+    {
+      "id": "pinterest-new-02",
+      "name": "暖木台灯与深棕角落",
+      "group": "warm-minimal",
+      "temperature": "warm",
+      "brightness": "dark",
+      "contrast": "strong",
+      "description": "深棕色低调室内角落，暖木边桌上一盏复古金属台灯、书本和木盒，背景墙面被灯光柔和照亮。",
+      "light": "台灯暖光与侧方弱自然光结合，局部明亮、四周低照度，氛围沉静高级。",
+      "tags": [
+        "warm-minimal",
+        "warm",
+        "dark",
+        "strong"
+      ],
+      "signature": "a25a603a094383b66c436dc1280b70fc",
+      "imageUrl": "https://i.pinimg.com/236x/a2/5a/60/a25a603a094383b66c436dc1280b70fc.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941482240/"
+    },
+    {
+      "id": "pinterest-new-03",
+      "name": "深木圆桌与奶油沙发",
+      "group": "warm-minimal",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "奶油色客厅，深色木质圆形咖啡桌带厚实雕塑桌腿，桌上有陶瓶和干枝，背景是浅色沙发与亚麻窗帘。",
+      "light": "窗外柔和日光侧照，桌面和陶器有细腻明暗层次，空间温暖安静。",
+      "tags": [
+        "warm-minimal",
+        "warm",
+        "medium"
+      ],
+      "signature": "5c65cabbe88aedada958523220a17091",
+      "imageUrl": "https://i.pinimg.com/236x/5c/65/ca/5c65cabbe88aedada958523220a17091.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941482236/"
+    },
+    {
+      "id": "pinterest-02",
+      "name": "奶油色圆柱桌静物",
+      "group": "warm-minimal",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "奶油色极简空间，白色圆柱底座圆桌，陶土花器和深色小碗，简洁餐椅。",
+      "light": "顶部柔和漫射光配合侧窗光，墙面有轻微光影层次。",
+      "tags": [
+        "warm-minimal",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "6bbf4449d5b3fab3cc0735cbe081c7ef",
+      "imageUrl": "https://i.pinimg.com/236x/6b/bf/44/6bbf4449d5b3fab3cc0735cbe081c7ef.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941400009/"
+    },
+    {
+      "id": "pinterest-04",
+      "name": "深木圆桌与一枝枯枝",
+      "group": "warm-minimal",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "深色胡桃木圆茶几，深色陶碗和书，高花瓶插一枝纤细枯枝，米灰墙面。",
+      "light": "窗格光影投在墙面，桌面有自然方向和轻微暖调。",
+      "tags": [
+        "warm-minimal",
+        "warm",
+        "medium",
+        "strong"
+      ],
+      "signature": "8bccaab7ca8b65a6c24246fa978e5839",
+      "imageUrl": "https://i.pinimg.com/236x/8b/cc/aa/8bccaab7ca8b65a6c24246fa978e5839.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941482234/"
+    },
+    {
+      "id": "pinterest-new-04",
+      "name": "植物拱门日光房",
+      "group": "architecture",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色拱形墙洞连接明亮日光房，室内摆放陶盆绿植、矮柜、藤编地毯和大型圆形墙面装饰。",
+      "light": "大面积自然日光从前景照入，植物在墙面和地面形成柔和叶影，整体通透干净。",
+      "tags": [
+        "architecture",
+        "neutral",
+        "bright",
+        "medium"
+      ],
+      "signature": "531d59eb589e4a96a14574450ca7f31a",
+      "imageUrl": "https://i.pinimg.com/236x/53/1d/59/531d59eb589e4a96a14574450ca7f31a.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941730047/"
+    },
+    {
+      "id": "pinterest-new-05",
+      "name": "拱形走廊与绿植",
+      "group": "architecture",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色连续拱门走廊，两侧摆放棕榈和热带绿植，地面是浅色石材，远端通向安静室内。",
+      "light": "暖白日光沿走廊延伸，拱门形成层层明暗，植物影子落在墙面和地面。",
+      "tags": [
+        "architecture",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "540da1e9824837b87b5a569ccded575d",
+      "imageUrl": "https://i.pinimg.com/236x/54/0d/a1/540da1e9824837b87b5a569ccded575d.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941730024/"
+    },
+    {
+      "id": "pinterest-06",
+      "name": "白墙绿植与斜射日光",
+      "group": "light-shadow",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "极简白墙，左侧大型常绿盆栽，地面浅色，画面大面积留白。",
+      "light": "强斜阳在白墙投下清晰植物叶影，空间干净透亮。",
+      "tags": [
+        "light-shadow",
+        "neutral",
+        "bright",
+        "strong"
+      ],
+      "signature": "51ab23a5a11f6fa9255a34b55a00e632",
+      "imageUrl": "https://i.pinimg.com/236x/51/ab/23/51ab23a5a11f6fa9255a34b55a00e632.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941400042/"
+    },
+    {
+      "id": "pinterest-new-06",
+      "name": "黑框拱窗与高株绿植",
+      "group": "window-seat",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "奶油色室内，左侧高大黑框拱形窗，中央高株热带绿植，远处有拱门、浅色沙发和木质边桌。",
+      "light": "窗外明亮冷白日光与室内暖墙形成平衡，绿植叶片有清楚高光。",
+      "tags": [
+        "window-seat",
+        "neutral",
+        "bright",
+        "medium"
+      ],
+      "signature": "009c5e41821817cdcf864144a1620502",
+      "imageUrl": "https://i.pinimg.com/236x/00/9c/5e/009c5e41821817cdcf864144a1620502.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797047/"
+    },
+    {
+      "id": "pinterest-18",
+      "name": "白墙小桌与长枝光斑",
+      "group": "light-shadow",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "白墙、浅色原木地板，一截原木和细枝植物沿墙排列，空间极简。",
+      "light": "阳光穿过植物形成长枝条影，地板反光自然柔和。",
+      "tags": [
+        "light-shadow",
+        "neutral",
+        "bright",
+        "strong"
+      ],
+      "signature": "3289bd78a507ac5bd422b0fc679682fb",
+      "imageUrl": "https://i.pinimg.com/236x/32/89/bd/3289bd78a507ac5bd422b0fc679682fb.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800002/"
+    },
+    {
+      "id": "pinterest-09",
+      "name": "橄榄树白墙庭院",
+      "group": "garden",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色灰泥围墙庭院，中央橄榄树，陶土花盆，木质长椅和藤编座椅。",
+      "light": "明亮日光从树冠穿过，地面有斑驳树影和自然色温。",
+      "tags": [
+        "garden",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "3cf8d349ad3505de299a1fb8b4d1a0ae",
+      "imageUrl": "https://i.pinimg.com/236x/3c/f8/d3/3cf8d349ad3505de299a1fb8b4d1a0ae.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941482272/"
+    },
+    {
+      "id": "pinterest-14",
+      "name": "亚麻扶手椅近景",
+      "group": "interior-detail",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "浅米色亚麻弧形扶手椅近景，木质扶手，背景为奶油色墙面。",
+      "light": "窗光在椅背形成明显的几何明暗，面料纹理清楚。",
+      "tags": [
+        "interior-detail",
+        "warm",
+        "medium",
+        "strong"
+      ],
+      "signature": "6d26a5c5b0bc6dadf3e5ee8f4a5c94ac",
+      "imageUrl": "https://i.pinimg.com/236x/6d/26/a5/6d26a5c5b0bc6dadf3e5ee8f4a5c94ac.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941400077/"
+    },
+    {
+      "id": "pinterest-12",
+      "name": "原木地板与长枝倒影",
+      "group": "light-shadow",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "白墙、浅色原木地板，一截原木和细枝植物沿墙排列，空间极简。",
+      "light": "阳光穿过植物形成长枝条影，地板反光自然柔和。",
+      "tags": [
+        "light-shadow",
+        "neutral",
+        "bright",
+        "strong"
+      ],
+      "signature": "ce3b94e440f82d05e646df36483ea655",
+      "imageUrl": "https://i.pinimg.com/236x/ce/3b/94/ce3b94e440f82d05e646df36483ea655.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941400073/"
+    },
+    {
+      "id": "pinterest-17",
+      "name": "绿色窗景与木质窗台",
+      "group": "window-seat",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色开启式窗户，窗外是茂密绿树，木质窗台放书和坐垫，室内外自然连接。",
+      "light": "明亮日光从窗外进入，绿色反射轻微映在室内。",
+      "tags": [
+        "window-seat",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "5ab83115aeaa3567736547b0442faf95",
+      "imageUrl": "https://i.pinimg.com/236x/5a/b8/31/5ab83115aeaa3567736547b0442faf95.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/6zdJwYjl/"
+    },
+    {
+      "id": "pinterest-new-07",
+      "name": "灰白墙面雕塑花瓶",
+      "group": "still-life",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "极简灰白墙面与白色基座，两个有机曲线造型的陶质花瓶一高一低摆放，画面无其他装饰。",
+      "light": "柔和侧光勾勒花瓶轮廓，白墙保留大面积干净留白和细窄阴影。",
+      "tags": [
+        "still-life",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "bcbc47d0728c4e286496b358bb090f54",
+      "imageUrl": "https://i.pinimg.com/236x/bc/bc/47/bcbc47d0728c4e286496b358bb090f54.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941482244/"
+    },
+    {
+      "id": "pinterest-new-08",
+      "name": "明亮沙发窗景",
+      "group": "window-seat",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "大窗边米色沙发与圆形木质茶几，室内有盆栽，窗外树影明显，窗帘轻薄。",
+      "light": "明亮自然光穿过窗户，枝叶影子落在沙发和墙面，空间轻盈温暖。",
+      "tags": [
+        "window-seat",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "dd32d2cffafc9921d11c293ef15fcb2d",
+      "imageUrl": "https://i.pinimg.com/236x/dd/32/d2/dd32d2cffafc9921d11c293ef15fcb2d.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796858/"
+    },
+    {
+      "id": "pinterest-new-09",
+      "name": "绿色条纹客厅",
+      "group": "color-interior",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "绿色细条纹墙面客厅，橙色沙发、棕色皮革扶手椅、绿色圆形茶几和抽象艺术画，色彩大胆但构图整洁。",
+      "light": "柔和室内自然光保持色彩饱和，墙面纹理和家具材质清楚，阴影自然。",
+      "tags": [
+        "color-interior",
+        "warm",
+        "medium",
+        "strong"
+      ],
+      "signature": "3aa72153f4e99e8d39756a6b7a97a88f",
+      "imageUrl": "https://i.pinimg.com/236x/3a/a7/21/3aa72153f4e99e8d39756a6b7a97a88f.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796842/"
+    },
+    {
+      "id": "pinterest-13",
+      "name": "拱形空间与深色圆桌",
+      "group": "architecture",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "奶油色拱形室内，米白沙发与弧形座椅，深色圆形茶几、陶瓷和书。",
+      "light": "左侧窗光形成柔和墙面阴影，空间有安静现代感。",
+      "tags": [
+        "architecture",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "caefe33788ed73098d59825b51753888",
+      "imageUrl": "https://i.pinimg.com/236x/ca/ef/e3/caefe33788ed73098d59825b51753888.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941482241/"
+    },
+    {
+      "id": "pinterest-new-10",
+      "name": "现代客厅与几何地毯",
+      "group": "modern-living",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "现代客厅，深灰色沙发、黑白几何地毯、弧形落地灯、透明窗帘和多株绿植，木质地面温暖。",
+      "light": "大面积白纱窗漫射光进入，家具阴影柔和，空间明亮整洁。",
+      "tags": [
+        "modern-living",
+        "neutral",
+        "bright",
+        "medium"
+      ],
+      "signature": "5e3d277adb713472b41eef1c69061d31",
+      "imageUrl": "https://i.pinimg.com/236x/5e/3d/27/5e3d277adb713472b41eef1c69061d31.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796823/"
+    },
+    {
+      "id": "pinterest-15",
+      "name": "白陶花瓶与亚麻窗帘",
+      "group": "still-life",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "米白亚麻窗帘与柔软布料，白色陶瓷花瓶置于布面，画面仅保留极简器物。",
+      "light": "大面积柔和窗光，白色层次细腻，阴影非常轻。",
+      "tags": [
+        "still-life",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "293cce1c2aa3030800820c642572a8ba",
+      "imageUrl": "https://i.pinimg.com/236x/29/3c/ce/293cce1c2aa3030800820c642572a8ba.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941399995/"
+    },
+    {
+      "id": "pinterest-new-11",
+      "name": "极简客厅与树影",
+      "group": "modern-living",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "浅色极简客厅，米白组合沙发、低矮茶几、圆形坐凳、多株绿植和大幅白纱窗帘。",
+      "light": "明亮柔和日光穿过窗帘，植物影子轻微落在墙面，画面低对比但有层次。",
+      "tags": [
+        "modern-living",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "34c4886391eff0e6643b43c90480a853",
+      "imageUrl": "https://i.pinimg.com/236x/34/c4/88/34c4886391eff0e6643b43c90480a853.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796820/"
+    },
+    {
+      "id": "pinterest-new-12",
+      "name": "拱门古典客厅",
+      "group": "classic-interior",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "带拱门和深色木框的古典客厅，浅色沙发、深木茶几、白色台灯、橄榄树和墙面艺术画。",
+      "light": "侧方柔和自然光与台灯暖光叠加，木色和织物纹理真实。",
+      "tags": [
+        "classic-interior",
+        "warm",
+        "medium"
+      ],
+      "signature": "da0cd0548d784daec5a7254bb8c8ef93",
+      "imageUrl": "https://i.pinimg.com/236x/da/0c/d0/da0cd0548d784daec5a7254bb8c8ef93.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796817/"
+    },
+    {
+      "id": "pinterest-new-14",
+      "name": "白花窗台与森林窗景",
+      "group": "window-seat",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色木质方格窗前，浅色窗台上放透明玻璃瓶、白色花瓶与盛开的白色花枝，右侧有一本摊开的书和小杯子，窗外是明亮森林与绿色树冠。",
+      "light": "柔和晨光或上午自然光从森林方向照入，叶片透光清亮，窗台有淡淡植物投影，整体干净安静。",
+      "tags": [
+        "window-seat",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "d1803314628c8b6ab2d143d3d649441e",
+      "imageUrl": "https://i.pinimg.com/236x/d1/80/33/d1803314628c8b6ab2d143d3d649441e.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800014/"
+    },
+    {
+      "id": "pinterest-new-13",
+      "name": "棕榈植物温暖客厅",
+      "group": "warm-minimal",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "温暖客厅角落，大型棕榈绿植、藤编矮柜、浅色贵妃椅、条纹靠垫和米色地毯，窗外光线柔和。",
+      "light": "暖色窗光从右侧进入，棕榈叶在墙面形成柔和阴影，空间舒适通透。",
+      "tags": [
+        "warm-minimal",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "c2c011cce0ad2e69fd8689092c951e20",
+      "imageUrl": "https://i.pinimg.com/236x/c2/c0/11/c2c011cce0ad2e69fd8689092c951e20.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796797/"
+    },
+    {
+      "id": "pinterest-new-15",
+      "name": "白窗林景与编织地毯角落",
+      "group": "window-seat",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "明亮现代室内角落，白色墙面和大面积落地窗，窗外是稀疏高树与浅色林地，鱼骨拼木地板铺米色黄麻地毯，右侧陶质圆瓶插绿色枝叶，编织篮内有白色织物。",
+      "light": "大面积柔和自然窗光，白墙和木地板保留细微阴影，整体清透明亮。",
+      "tags": [
+        "window-seat",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "59f4f74af2392896f67d0d1eb7cf60c3",
+      "imageUrl": "https://i.pinimg.com/236x/59/f4/f7/59f4f74af2392896f67d0d1eb7cf60c3.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814382/"
+    },
+    {
+      "id": "pinterest-new-16",
+      "name": "古典扶手椅与花卉画角落",
+      "group": "classic-interior",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "奶油色古典护墙板室内角落，米白翼背扶手椅配花卉靠枕，右侧深木圆边桌和蓝色条纹陶瓷灯，墙上挂植物画并配金色壁灯，拱形窗和花卉地毯。",
+      "light": "暖色侧光从拱形窗照入，扶手椅和地毯有柔和明暗层次，整体安静优雅。",
+      "tags": [
+        "classic-interior",
+        "warm",
+        "medium"
+      ],
+      "signature": "9d35794035f0cf8c5ce08d372495d570",
+      "imageUrl": "https://i.pinimg.com/236x/9d/35/79/9d35794035f0cf8c5ce08d372495d570.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814500/"
+    },
+    {
+      "id": "pinterest-new-17",
+      "name": "白拱门玄关与藤编窗",
+      "group": "architecture",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "明亮白色玄关，厚重圆拱门框连接门厅，黑色抽屉柜、花瓶花枝、小木凳、绿色大型盆栽，藤编卷帘和玻璃门透出树林窗景。",
+      "light": "均匀明亮的自然日光从玻璃门和窗透入，白色墙面和浅木地板保持通透，阴影柔和。",
+      "tags": [
+        "architecture",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "66baf75d54799830eaa58a3138131f6d",
+      "imageUrl": "https://i.pinimg.com/236x/66/ba/f7/66baf75d54799830eaa58a3138131f6d.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814391/"
+    },
+    {
+      "id": "pinterest-new-18",
+      "name": "敞门花园与远山窗景",
+      "group": "garden",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "大开双扇玻璃门通向阳光花园，石板路穿过绣球花坛和草地，远处是层叠青山和蓝天白云，门框上方垂落绿色藤蔓。",
+      "light": "明亮午后自然光直射花园，石板上形成清晰叶影和门框投影，绿色和蓝白色调清透。",
+      "tags": [
+        "garden",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "c67f2d33ce0f9fae169640667d59cd35",
+      "imageUrl": "https://i.pinimg.com/236x/c6/7f/2d/c67f2d33ce0f9fae169640667d59cd35.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814652/"
+    },
+    {
+      "id": "pinterest-new-19",
+      "name": "阳光草坪缓坡",
+      "group": "garden",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "修剪平整的草坪缓坡，前景草叶清楚，右侧有低矮灌木，暖色斜阳在草地形成明暗层次。",
+      "light": "低角度金色阳光斜照，草叶透光明亮，阴影长而柔和。",
+      "tags": [
+        "garden",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "77f37f67e2e7a23a57b34ca11b6c0c49",
+      "imageUrl": "https://i.pinimg.com/474x/77/f3/7f/77f37f67e2e7a23a57b34ca11b6c0c49.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814671/"
+    },
+    {
+      "id": "pinterest-new-20",
+      "name": "绿草近景与晨光",
+      "group": "garden",
+      "temperature": "neutral",
+      "brightness": "medium",
+      "contrast": "soft",
+      "description": "低矮绿色草地近景，长草和细小白色野花铺满画面，背景轻微虚化。",
+      "light": "清晨柔光从侧后方照亮草尖，绿色层次细密自然。",
+      "tags": [
+        "garden",
+        "neutral",
+        "medium",
+        "soft"
+      ],
+      "signature": "f97cb67dbe96795410b3f94703371153",
+      "imageUrl": "https://i.pinimg.com/474x/f9/7c/b6/f97cb67dbe96795410b3f94703371153.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814669/"
+    },
+    {
+      "id": "pinterest-new-21",
+      "name": "白花木廊与藤蔓",
+      "group": "cottage-porch",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色木廊被绿色藤蔓和白色小花围绕，廊下摆放陶土花盆与盆栽，远处是茂密花园。",
+      "light": "明亮侧逆光穿过藤蔓和花叶，木地板保留柔和斑驳阴影。",
+      "tags": [
+        "cottage-porch",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "d13f7142320acf37758f1c7edda70a76",
+      "imageUrl": "https://i.pinimg.com/474x/d1/3f/71/d13f7142320acf37758f1c7edda70a76.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814642/"
+    },
+    {
+      "id": "pinterest-new-22",
+      "name": "新英格兰白篱庭院",
+      "group": "exterior",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "经典白色木板住宅与白色尖桩篱笆，前院草坪整齐，粉色花丛沿步道盛开，门廊有一把木椅。",
+      "light": "清爽上午自然光，白墙和绿草明暗层次清楚，整体明亮整洁。",
+      "tags": [
+        "exterior",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "ed8524edaae4fa7a7f85602d1055f09a",
+      "imageUrl": "https://i.pinimg.com/474x/ed/85/24/ed8524edaae4fa7a7f85602d1055f09a.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814636/"
+    },
+    {
+      "id": "pinterest-new-23",
+      "name": "经典洋房草坪花园",
+      "group": "exterior",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色古典洋房位于草坪尽头，弯曲车道、修剪灌木和白色围栏形成完整庭院层次。",
+      "light": "白天均匀自然光，草坪和建筑轮廓清楚，空间开阔安静。",
+      "tags": [
+        "exterior",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "17fd6c557d66ce5182f202d6b24655a4",
+      "imageUrl": "https://i.pinimg.com/474x/17/fd/6c/17fd6c557d66ce5182f202d6b24655a4.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814633/"
+    },
+    {
+      "id": "pinterest-new-24",
+      "name": "石阶花门廊",
+      "group": "entry",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "石材台阶通向木质前门，两侧陶盆和花坛繁茂，门旁有壁灯、藤编篮和木质长椅。",
+      "light": "暖色侧光落在木门和花叶上，门廊阴影自然柔和。",
+      "tags": [
+        "entry",
+        "warm",
+        "medium"
+      ],
+      "signature": "5c398b2b7de89ba85304eb1295ec67cf",
+      "imageUrl": "https://i.pinimg.com/474x/5c/39/8b/5c398b2b7de89ba85304eb1295ec67cf.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814610/"
+    },
+    {
+      "id": "pinterest-new-25",
+      "name": "玫瑰藤架休闲廊",
+      "group": "cottage-porch",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色藤架廊下摆放户外沙发和米色靠垫，前景有玫瑰花束，背后是绿色灌木与白色栏杆。",
+      "light": "午后柔光穿过藤架，花束和织物保留温暖明暗层次。",
+      "tags": [
+        "cottage-porch",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "18bb90fe16f3fe53c61d97a99d77675e",
+      "imageUrl": "https://i.pinimg.com/474x/18/bb/90/18bb90fe16f3fe53c61d97a99d77675e.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814596/"
+    },
+    {
+      "id": "pinterest-new-26",
+      "name": "地中海石墙庭院",
+      "group": "outdoor",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "暖色石墙与拱形开口围合出户外露台，陶盆绿植、木质家具和树木在远处形成层次。",
+      "light": "强烈日光穿过树冠，墙面和地面出现清晰树影。",
+      "tags": [
+        "outdoor",
+        "warm",
+        "bright",
+        "strong"
+      ],
+      "signature": "4bb91ff898dc5aaefe0ff7b550c775c2",
+      "imageUrl": "https://i.pinimg.com/474x/4b/b9/1f/4bb91ff898dc5aaefe0ff7b550c775c2.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814582/"
+    },
+    {
+      "id": "pinterest-new-27",
+      "name": "户外藤编休息区",
+      "group": "patio",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "藤编户外沙发配米白坐垫和靠枕，木质茶几与绿植环绕，背景是花园树木。",
+      "light": "温暖日光从侧方照入，藤编纹理与织物阴影清楚。",
+      "tags": [
+        "patio",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "d13aa95f8e2d1dd83147bbe8dfd28b58",
+      "imageUrl": "https://i.pinimg.com/474x/d1/3a/a9/d13aa95f8e2d1dd83147bbe8dfd28b58.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814567/"
+    },
+    {
+      "id": "pinterest-new-28",
+      "name": "室内外连通阳光房",
+      "group": "sunroom",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "开放式室内空间与户外露台相连，浅色扶手椅、木茶几和绿植围绕落地开口布置。",
+      "light": "室内外自然光连续过渡，空间通透，阴影低对比。",
+      "tags": [
+        "sunroom",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "e2b2433d2e5b2685d4403ece8df0c6c0",
+      "imageUrl": "https://i.pinimg.com/474x/e2/b2/43/e2b2433d2e5b2685d4403ece8df0c6c0.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814562/"
+    },
+    {
+      "id": "pinterest-new-29",
+      "name": "白玫瑰格栅花园",
+      "group": "garden",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色格栅和木墙前攀爬大量白玫瑰，绿色枝叶密集，隐约可见花园座椅和草地。",
+      "light": "明亮上午光穿过花瓣和叶片，白色花朵保持清楚层次。",
+      "tags": [
+        "garden",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "a49b88ec52697066eca51c5d4cda40a5",
+      "imageUrl": "https://i.pinimg.com/474x/a4/9b/88/a49b88ec52697066eca51c5d4cda40a5.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814546/"
+    },
+    {
+      "id": "pinterest-new-30",
+      "name": "白窗纱与绿色庭院",
+      "group": "window-seat",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色落地玻璃门和轻薄纱帘，窗外是绿色草坪与庭院树影，室内只保留少量浅色家具。",
+      "light": "大面积柔和窗光，白色织物透光但不发光，环境安静清透。",
+      "tags": [
+        "window-seat",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "e42fbce582a23b59cf10dfcaf323de2a",
+      "imageUrl": "https://i.pinimg.com/474x/e4/2f/bc/e42fbce582a23b59cf10dfcaf323de2a.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814474/"
+    },
+    {
+      "id": "pinterest-new-31",
+      "name": "纱帘透光与白墙",
+      "group": "curtain",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色房间中大窗被轻薄纱帘覆盖，墙面干净，窗外绿色隐约可见。",
+      "light": "午前柔和自然光穿过纱帘，墙面出现淡雅光斑和细腻阴影。",
+      "tags": [
+        "curtain",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "55214ed3e5ad23e66bbe297a037083cb",
+      "imageUrl": "https://i.pinimg.com/474x/55/21/4e/55214ed3e5ad23e66bbe297a037083cb.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814472/"
+    },
+    {
+      "id": "pinterest-new-32",
+      "name": "金色窗帘与圆桌花瓶",
+      "group": "classic-interior",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "古典房间的大窗配金色窗帘，窗前深木圆桌上有浅色花器和盆栽花卉。",
+      "light": "暖色窗光从左侧照入，木桌与窗帘形成柔和明暗层次。",
+      "tags": [
+        "classic-interior",
+        "warm",
+        "medium"
+      ],
+      "signature": "cece0b1ae6fedb9cea9bb48eb35f0121",
+      "imageUrl": "https://i.pinimg.com/474x/ce/ce/0b/cece0b1ae6fedb9cea9bb48eb35f0121.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814463/"
+    },
+    {
+      "id": "pinterest-new-33",
+      "name": "木框窗与陶盆植物",
+      "group": "rustic",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "深色木框窗嵌在砖墙中，窗前摆放陶盆仙人掌和绿植，床上铺浅色织物。",
+      "light": "斜射阳光照亮砖墙与植物，阴影轮廓清楚但不过黑。",
+      "tags": [
+        "rustic",
+        "warm",
+        "medium",
+        "strong"
+      ],
+      "signature": "08ca6b84e1843a465e7b30597d0c64a6",
+      "imageUrl": "https://i.pinimg.com/474x/08/ca/6b/08ca6b84e1843a465e7b30597d0c64a6.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814453/"
+    },
+    {
+      "id": "pinterest-new-34",
+      "name": "卧室窗边与树林",
+      "group": "bedroom",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "浅色卧室窗前有白色床品和舒适窗边座位，窗外是茂密树木。",
+      "light": "柔和日光穿过白纱帘，床品和窗台保持轻盈低对比。",
+      "tags": [
+        "bedroom",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "50230666a381d7571cf620d64e48bfe2",
+      "imageUrl": "https://i.pinimg.com/474x/50/23/06/50230666a381d7571cf620d64e48bfe2.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814448/"
+    },
+    {
+      "id": "pinterest-new-35",
+      "name": "法式白窗与纱帘",
+      "group": "window-seat",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色法式窗与垂落纱帘，窗外可见街道建筑和绿色树冠，室内简洁明亮。",
+      "light": "上午自然光从窗外照入，白色墙面与纱帘层次细腻。",
+      "tags": [
+        "window-seat",
+        "neutral",
+        "bright",
+        "medium"
+      ],
+      "signature": "6353417372243af5d0dbf51ba7a8d473",
+      "imageUrl": "https://i.pinimg.com/474x/63/53/41/6353417372243af5d0dbf51ba7a8d473.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814444/"
+    },
+    {
+      "id": "pinterest-new-36",
+      "name": "花卉蕾丝纱帘",
+      "group": "curtain",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "带花卉刺绣的浅色蕾丝纱帘覆盖大窗，窗边有木质座椅和绿植。",
+      "light": "柔和逆光穿过蕾丝纹理，纱帘保持半透但不透明。",
+      "tags": [
+        "curtain",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "8438331d73d4ab3b29c30c3e7188d9ec",
+      "imageUrl": "https://i.pinimg.com/474x/84/38/33/8438331d73d4ab3b29c30c3e7188d9ec.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/AalERoE-cICe84lG0r1o5Vn2qe6mOF4fqVX6OLbTNv7EXmR4G6k1j97V6GFUkbi-0EcV-03G-eq0srvuK7sSXVU/"
+    },
+    {
+      "id": "pinterest-new-37",
+      "name": "黑白窗幔与白窗",
+      "group": "window-seat",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "白色窗框配黑色和灰色窗幔，窗边有浅色置物架和简洁装饰。",
+      "light": "正面自然光形成清楚黑白对比，窗幔和墙面阴影干净。",
+      "tags": [
+        "window-seat",
+        "neutral",
+        "bright",
+        "strong"
+      ],
+      "signature": "a13b2539fe268258680c590ece60ab5b",
+      "imageUrl": "https://i.pinimg.com/474x/a1/3b/25/a13b2539fe268258680c590ece60ab5b.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/Acl5xUA2D4pMJatgIlWnchmsW1LW4FNoTRDEf4j4TBOdkKeor-_ma1U9aFDfQH4KlEwCZ-Jx7zT9iyCc2J2lE44/"
+    },
+    {
+      "id": "pinterest-new-38",
+      "name": "绿植窗边与奶油沙发",
+      "group": "modern-living",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "奶油色沙发位于大窗旁，窗台和角落摆放绿植，柔色窗帘垂落。",
+      "light": "明亮窗光从侧面照入，植物影子落在浅色墙面。",
+      "tags": [
+        "modern-living",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "3dbb8e346f7019f8a5105420d3a1fe31",
+      "imageUrl": "https://i.pinimg.com/474x/3d/bb/8e/3dbb8e346f7019f8a5105420d3a1fe31.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814418/"
+    },
+    {
+      "id": "pinterest-new-39",
+      "name": "农场风客厅与花园窗",
+      "group": "farmhouse",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "现代农场风客厅，大面积窗户、浅色沙发、木地板和室内绿植，窗外是草坪。",
+      "light": "温暖自然光穿过窗帘，空间明亮且家具材质清楚。",
+      "tags": [
+        "farmhouse",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "79825f02cf32364f006028d28e5fb8d9",
+      "imageUrl": "https://i.pinimg.com/474x/79/82/5f/79825f02cf32364f006028d28e5fb8d9.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/Ac5qZJKyIHiHWCa68fuUNEVP24w32a15ky6csBn7yr4GtnmquDBPTXPRifq21IICexbvKGaUq81ZXS7bkFywfEw/"
+    },
+    {
+      "id": "pinterest-new-40",
+      "name": "米色沙发与古典画墙",
+      "group": "classic-interior",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "浅米色布艺沙发与木质边柜相对，墙上挂有多幅古典画作，窗边绿植柔和。",
+      "light": "侧窗暖光让墙面画框和织物产生细腻层次。",
+      "tags": [
+        "classic-interior",
+        "warm",
+        "medium"
+      ],
+      "signature": "ce8fec1b438b7a97ffcee469dd12677f",
+      "imageUrl": "https://i.pinimg.com/474x/ce/8f/ec/ce8fec1b438b7a97ffcee469dd12677f.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814411/"
+    },
+    {
+      "id": "pinterest-new-41",
+      "name": "深色木窗与绿色风景",
+      "group": "window-seat",
+      "temperature": "green",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "粗壮深色木窗框透出浓密绿色树景，室内墙面和窗台保持简洁。",
+      "light": "窗外明亮冷绿光与室内暗木形成强烈框景。",
+      "tags": [
+        "window-seat",
+        "green",
+        "medium",
+        "strong"
+      ],
+      "signature": "390bf818d3679bfca1b62eeaa4c16de7",
+      "imageUrl": "https://i.pinimg.com/474x/39/0b/f8/390bf818d3679bfca1b62eeaa4c16de7.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814397/"
+    },
+    {
+      "id": "pinterest-new-42",
+      "name": "厨房窗台与枝条花瓶",
+      "group": "kitchen",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "简洁厨房窗台摆放花瓶和观赏枝条，浅色墙面配小幅装饰画。",
+      "light": "上午柔光从窗外照入，玻璃花瓶和枝叶有轻透层次。",
+      "tags": [
+        "kitchen",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "caba9a99e4cb6318b79107fa685cbe6c",
+      "imageUrl": "https://i.pinimg.com/474x/ca/ba/9a/caba9a99e4cb6318b79107fa685cbe6c.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814395/"
+    },
+    {
+      "id": "pinterest-new-43",
+      "name": "奶油扶手椅与长窗",
+      "group": "window-seat",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "奶油色弧形扶手椅位于高窗和纱帘前，旁边有浅色边桌与花瓶。",
+      "light": "大面积柔和窗光包围座椅，阴影非常轻。",
+      "tags": [
+        "window-seat",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "29d403cab17954c7c9fb2b83f86013ab",
+      "imageUrl": "https://i.pinimg.com/474x/29/d4/03/29d403cab17954c7c9fb2b83f86013ab.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814384/"
+    },
+    {
+      "id": "pinterest-new-44",
+      "name": "白色弧形沙发与干花",
+      "group": "modern-living",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色弧形沙发位于明亮客厅，前景有干花与陶瓶，背景是简洁墙面。",
+      "light": "漫射自然光让白色家具保留柔和层次，不出现过曝。",
+      "tags": [
+        "modern-living",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "97e27968bcff19b8b8e35a941d621a4f",
+      "imageUrl": "https://i.pinimg.com/474x/97/e2/79/97e27968bcff19b8b8e35a941d621a4f.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814380/"
+    },
+    {
+      "id": "pinterest-new-45",
+      "name": "暖光床角与落地灯",
+      "group": "bedroom",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "暖色卧室角落，床头柜上有绿植和陶器，细长落地灯提供局部照明。",
+      "light": "台灯暖光与微弱窗光结合，局部明亮、整体安静。",
+      "tags": [
+        "bedroom",
+        "warm",
+        "medium",
+        "strong"
+      ],
+      "signature": "18f319269bcc2b08a95e4e9a62f9a4d5",
+      "imageUrl": "https://i.pinimg.com/474x/18/f3/19/18f319269bcc2b08a95e4e9a62f9a4d5.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941814377/"
+    },
+    {
+      "id": "pinterest-new-46",
+      "name": "海景木窗与藤蔓",
+      "group": "coastal",
+      "temperature": "cool",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "朴素木窗框外是蓝色海面和远山，窗边垂落绿色藤蔓，室内简化。",
+      "light": "明亮海面反光从窗外进入，窗框和植物形成深色自然轮廓。",
+      "tags": [
+        "coastal",
+        "cool",
+        "bright",
+        "strong"
+      ],
+      "signature": "3b2e5f0b77d3c4271419f11e881a3daf",
+      "imageUrl": "https://i.pinimg.com/474x/3b/2e/5f/3b2e5f0b77d3c4271419f11e881a3daf.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800054/"
+    },
+    {
+      "id": "pinterest-new-47",
+      "name": "海滨长窗与蓝海",
+      "group": "coastal",
+      "temperature": "cool",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "深色窗框与白色窗帘框住蓝色海面，室内光线清澈安静。",
+      "light": "冷白自然光从海面反射进入，蓝色层次清楚。",
+      "tags": [
+        "coastal",
+        "cool",
+        "bright",
+        "medium"
+      ],
+      "signature": "cdb9f8b3e3cfb9efaf7b11be1614509f",
+      "imageUrl": "https://i.pinimg.com/474x/cd/b9/f8/cdb9f8b3e3cfb9efaf7b11be1614509f.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800053/"
+    },
+    {
+      "id": "pinterest-new-48",
+      "name": "植物阳光房与花园窗",
+      "group": "sunroom",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "阳光房四周摆放大量盆栽绿植，白色座椅和浅色地面连接窗外花园。",
+      "light": "大面积绿色日光从各侧照入，叶影落在墙面和家具。",
+      "tags": [
+        "sunroom",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "63cf2956022899449dd54a628064eaa9",
+      "imageUrl": "https://i.pinimg.com/474x/63/cf/29/63cf2956022899449dd54a628064eaa9.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800050/"
+    },
+    {
+      "id": "pinterest-new-49",
+      "name": "白室花园窗景",
+      "group": "window-seat",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色室内墙面与宽窗，窗外是繁密树木和花园，窗台几乎不放道具。",
+      "light": "窗外绿色自然光映亮白墙，画面清透低对比。",
+      "tags": [
+        "window-seat",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "7062af0be06d99a12148a95ac037dc27",
+      "imageUrl": "https://i.pinimg.com/474x/70/62/af/7062af0be06d99a12148a95ac037dc27.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800049/"
+    },
+    {
+      "id": "pinterest-new-50",
+      "name": "粉色牡丹与窗光",
+      "group": "still-life",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "透明玻璃瓶中插满粉色牡丹，置于窗前浅色桌面上，旁边有轻微垂帘。",
+      "light": "柔和窗光从花朵背后照亮花瓣，玻璃瓶保持实体质感。",
+      "tags": [
+        "still-life",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "4dbc3f48621686fab5f861e0b3c37729",
+      "imageUrl": "https://i.pinimg.com/474x/4d/bc/3f/4dbc3f48621686fab5f861e0b3c37729.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800048/"
+    },
+    {
+      "id": "pinterest-new-51",
+      "name": "巴黎夏日窗边",
+      "group": "window-seat",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "细长法式窗边垂落浅色纱帘，窗外可见巴黎建筑，室内有花卉和木色装饰。",
+      "light": "夏日午后暖光穿过窗帘，空间轻盈明亮。",
+      "tags": [
+        "window-seat",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "8a066674415d8e520e28478d81b399a8",
+      "imageUrl": "https://i.pinimg.com/474x/8a/06/66/8a066674415d8e520e28478d81b399a8.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800044/"
+    },
+    {
+      "id": "pinterest-new-52",
+      "name": "纱帘与花园绿影",
+      "group": "window-seat",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色房间中纱帘轻掩宽窗，窗外是明亮花园和绿色植物。",
+      "light": "柔和自然光穿过纱帘，室内外绿色相互映照。",
+      "tags": [
+        "window-seat",
+        "green",
+        "bright",
+        "soft"
+      ],
+      "signature": "97218e2c2f8700dcc85a3db9508bd415",
+      "imageUrl": "https://i.pinimg.com/474x/97/21/8e/97218e2c2f8700dcc85a3db9508bd415.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800041/"
+    },
+    {
+      "id": "pinterest-new-53",
+      "name": "白纱帘与金色树影",
+      "group": "window-seat",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色窗框和轻纱帘前透出金黄树冠，室内保持极简留白。",
+      "light": "暖金色秋光从窗外逆照纱帘，叶片阴影柔和。",
+      "tags": [
+        "window-seat",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "6508ab5c47ef546c56381f3914dacf29",
+      "imageUrl": "https://i.pinimg.com/474x/65/08/ab/6508ab5c47ef546c56381f3914dacf29.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800037/"
+    },
+    {
+      "id": "pinterest-new-54",
+      "name": "窗台盆栽与暖灯",
+      "group": "still-life",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "简洁窗台摆放小盆栽、玻璃器皿和一盏暖色台灯，墙面留白。",
+      "light": "侧窗光与暖灯叠加，植物和器物轮廓自然。",
+      "tags": [
+        "still-life",
+        "warm",
+        "medium"
+      ],
+      "signature": "e29d18ffc9e927147ae2b28012b2c886",
+      "imageUrl": "https://i.pinimg.com/474x/e2/9d/18/e29d18ffc9e927147ae2b28012b2c886.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800036/"
+    },
+    {
+      "id": "pinterest-new-55",
+      "name": "雏菊窗景与蓝天",
+      "group": "still-life",
+      "temperature": "cool",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色窗边摆放一束白色雏菊，窗外是蓝天和轻薄云层。",
+      "light": "明亮冷白日光照射花束，花朵与天空层次清晰。",
+      "tags": [
+        "still-life",
+        "cool",
+        "bright",
+        "medium"
+      ],
+      "signature": "5f4807ed32cecf5181730c87c10c476a",
+      "imageUrl": "https://i.pinimg.com/474x/5f/48/07/5f4807ed32cecf5181730c87c10c476a.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800027/"
+    },
+    {
+      "id": "pinterest-new-56",
+      "name": "绿植窗廊与仙人掌",
+      "group": "sunroom",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "多扇高窗组成明亮窗廊，地面和窗台摆放绿植、仙人掌与陶盆。",
+      "light": "充足自然光从各面照入，叶片和陶盆投影清楚。",
+      "tags": [
+        "sunroom",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "ad1f815134bea520ab85bddcebb5a4e2",
+      "imageUrl": "https://i.pinimg.com/474x/ad/1f/81/ad1f815134bea520ab85bddcebb5a4e2.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800024/"
+    },
+    {
+      "id": "pinterest-new-57",
+      "name": "藤椅花束与白墙",
+      "group": "still-life",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色墙面和木质窗框前有藤编座椅，浅色花束放在旁边。",
+      "light": "柔和侧光让藤编纹理和花束层次清楚。",
+      "tags": [
+        "still-life",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "9d686a91d3a8390021d95cafe85cad64",
+      "imageUrl": "https://i.pinimg.com/474x/9d/68/6a/9d686a91d3a8390021d95cafe85cad64.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800023/"
+    },
+    {
+      "id": "pinterest-new-58",
+      "name": "乡村窗座与软垫",
+      "group": "window-seat",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "乡村风窗户下设置白色软垫窗座，木质窗框与浅色墙面简洁安静。",
+      "light": "柔和自然光穿过窗户，织物纹理保留低对比阴影。",
+      "tags": [
+        "window-seat",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "b4925ba999a1aeafba7a19e63eb8e1bc",
+      "imageUrl": "https://i.pinimg.com/474x/b4/92/5b/b4925ba999a1aeafba7a19e63eb8e1bc.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800021/"
+    },
+    {
+      "id": "pinterest-new-59",
+      "name": "城市绿意白窗",
+      "group": "window-seat",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色墙面上有宽窗和少量垂帘，窗外可见城市建筑与绿树。",
+      "light": "明亮漫射光从窗外照入，室内保持干净冷调。",
+      "tags": [
+        "window-seat",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "f88688a8dadd92d0948a430d1c8fa0d8",
+      "imageUrl": "https://i.pinimg.com/474x/f8/86/88/f88688a8dadd92d0948a430d1c8fa0d8.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800020/"
+    },
+    {
+      "id": "pinterest-new-60",
+      "name": "现代客厅与树林窗",
+      "group": "modern-living",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "现代客厅使用大面积透明窗帘，窗外是绿色树冠，室内家具线条简洁。",
+      "light": "大面积自然光穿过窗帘，树叶和家具阴影柔和。",
+      "tags": [
+        "modern-living",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "de52d267e19ba30919b936c28e3222cb",
+      "imageUrl": "https://i.pinimg.com/474x/de/52/d2/de52d267e19ba30919b936c28e3222cb.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941800015/"
+    },
+    {
+      "id": "pinterest-new-61",
+      "name": "绿植书籍窗边",
+      "group": "window-seat",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "窗边设置舒适的浅色座位，摆放书本、盆栽和垂吊绿植。",
+      "light": "明亮日光穿过植物，窗台和座椅出现细碎叶影。",
+      "tags": [
+        "window-seat",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "c6dd0c8f6eca8246a9865d91f230b7c6",
+      "imageUrl": "https://i.pinimg.com/474x/c6/dd/0c/c6dd0c8f6eca8246a9865d91f230b7c6.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941483077/"
+    },
+    {
+      "id": "pinterest-new-62",
+      "name": "高株绿植与暗木框",
+      "group": "interior-detail",
+      "temperature": "green",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "室内角落放置高株细叶绿植，深色木质窗框和浅色墙面形成对比。",
+      "light": "侧窗光让植物叶片出现清楚亮暗层次。",
+      "tags": [
+        "interior-detail",
+        "green",
+        "medium",
+        "strong"
+      ],
+      "signature": "df313fcb438000c7c7c3ee1255f192e8",
+      "imageUrl": "https://i.pinimg.com/474x/df/31/3f/df313fcb438000c7c7c3ee1255f192e8.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941799996/"
+    },
+    {
+      "id": "pinterest-new-63",
+      "name": "暖灰客厅与落地灯",
+      "group": "modern-living",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "暖灰色沙发与木质茶几组成客厅角落，细长落地灯和干枝花瓶点缀。",
+      "light": "柔和室内光从侧窗进入，木色与织物层次温暖。",
+      "tags": [
+        "modern-living",
+        "warm",
+        "medium"
+      ],
+      "signature": "5ce113320462acd5482259d8a461dcc7",
+      "imageUrl": "https://i.pinimg.com/474x/5c/e1/13/5ce113320462acd5482259d8a461dcc7.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941799993/"
+    },
+    {
+      "id": "pinterest-new-64",
+      "name": "窗边书桌与电脑",
+      "group": "home-office",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "木质书桌正对庭院窗景，桌面有电脑、书本和盆栽，座椅简洁。",
+      "light": "日间自然光从窗外照入，桌面阴影柔和。",
+      "tags": [
+        "home-office",
+        "neutral",
+        "bright",
+        "medium"
+      ],
+      "signature": "836059a2bf8cd2732f842062129b2103",
+      "imageUrl": "https://i.pinimg.com/474x/83/60/59/836059a2bf8cd2732f842062129b2103.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797180/"
+    },
+    {
+      "id": "pinterest-new-65",
+      "name": "极简书桌与晨光",
+      "group": "home-office",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色极简书桌上有电脑、马克杯和绿植，浅色墙面保留大面积留白。",
+      "light": "清晨柔光从侧面照入，桌面和杯具有细窄阴影。",
+      "tags": [
+        "home-office",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "da1edc670340d17c5867657288eb62c4",
+      "imageUrl": "https://i.pinimg.com/474x/da/1e/dc/da1edc670340d17c5867657288eb62c4.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797218/"
+    },
+    {
+      "id": "pinterest-new-66",
+      "name": "墙面绿植影",
+      "group": "light-shadow",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "浅米色墙面和干净地面，一株盆栽在墙上形成大面积清晰叶影。",
+      "light": "强斜射阳光从侧面照入，叶影清晰但保持灰色层次。",
+      "tags": [
+        "light-shadow",
+        "neutral",
+        "bright",
+        "strong"
+      ],
+      "signature": "5c59e1286ec7c8699412dd4aa304c522",
+      "imageUrl": "https://i.pinimg.com/474x/5c/59/e1/5c59e1286ec7c8699412dd4aa304c522.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797191/"
+    },
+    {
+      "id": "pinterest-new-67",
+      "name": "木桌办公角与窗景",
+      "group": "home-office",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "木质书桌和皮革座椅面对花园窗景，桌面摆放绿植和书籍。",
+      "light": "温暖日光从窗外照入，木纹和皮革质感清楚。",
+      "tags": [
+        "home-office",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "b234e6993edc453ba85cc78c60519b4f",
+      "imageUrl": "https://i.pinimg.com/474x/b2/34/e6/b234e6993edc453ba85cc78c60519b4f.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797188/"
+    },
+    {
+      "id": "pinterest-new-68",
+      "name": "餐桌秋叶静物",
+      "group": "still-life",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "深色餐边柜与木质餐桌，桌上有花瓶和秋季枝叶，背景简洁。",
+      "light": "侧方暖光让秋叶和木器产生丰富层次。",
+      "tags": [
+        "still-life",
+        "warm",
+        "medium",
+        "strong"
+      ],
+      "signature": "7e4cbe7a67766b08d8cc974217c20c7a",
+      "imageUrl": "https://i.pinimg.com/474x/7e/4c/be/7e4cbe7a67766b08d8cc974217c20c7a.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/AY76fLzcZjia0AeQHkY34L0gqvncRXknSjj-qUoJ0W5ItCqdeN4Ni-Uwf1Kl4A_ZxRXxRHZJuMaTCRlE9R_Ud5Q/"
+    },
+    {
+      "id": "pinterest-new-69",
+      "name": "日式书桌与绿植",
+      "group": "home-office",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "日式极简书桌面向宽窗，桌面有书本、绿植和暖色台灯，木色柔和。",
+      "light": "柔和窗光与台灯暖光叠加，空间安静克制。",
+      "tags": [
+        "home-office",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "af4aec6cd84f367d0d194abb917f0b24",
+      "imageUrl": "https://i.pinimg.com/474x/af/4a/ec/af4aec6cd84f367d0d194abb917f0b24.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797076/"
+    },
+    {
+      "id": "pinterest-new-70",
+      "name": "奶油弧形沙发客厅",
+      "group": "modern-living",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "奶油色弧形沙发围绕木质茶几，墙上挂画，浅色地毯与器物保持简洁。",
+      "light": "大面积漫射光让浅色家具层次柔和。",
+      "tags": [
+        "modern-living",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "dfb3feb16241898d646176c0503a3d53",
+      "imageUrl": "https://i.pinimg.com/474x/df/b3/fe/dfb3feb16241898d646176c0503a3d53.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797068/"
+    },
+    {
+      "id": "pinterest-new-71",
+      "name": "棕榈叶与芦苇静物",
+      "group": "still-life",
+      "temperature": "green",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "绿色棕榈叶与米色芦苇枝置于浅色墙前，植物投影形成柔和画面。",
+      "light": "侧光突出叶片纹理和细长枝影。",
+      "tags": [
+        "still-life",
+        "green",
+        "medium"
+      ],
+      "signature": "d7b1b8317d7cc8ece5fb6ea6996df5dc",
+      "imageUrl": "https://i.pinimg.com/474x/d7/b1/b8/d7b1b8317d7cc8ece5fb6ea6996df5dc.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797050/"
+    },
+    {
+      "id": "pinterest-new-72",
+      "name": "窗边办公桌与花园",
+      "group": "home-office",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "极简办公桌椅面向花园窗，桌面只有电脑和少量绿植。",
+      "light": "明亮自然光从窗外进入，植物和桌面阴影柔和。",
+      "tags": [
+        "home-office",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "21c600ff4e3dce74ed293b65ac035ac5",
+      "imageUrl": "https://i.pinimg.com/474x/21/c6/00/21c600ff4e3dce74ed293b65ac035ac5.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797032/"
+    },
+    {
+      "id": "pinterest-new-73",
+      "name": "暖木柜与藤编休闲椅",
+      "group": "warm-living",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "暖木矮柜、藤编椅和绿植组成安静角落，墙上装饰简洁。",
+      "light": "柔和侧光让木色和藤编纹理温暖清楚。",
+      "tags": [
+        "warm-living",
+        "warm",
+        "medium"
+      ],
+      "signature": "603bb0b6cb53cfe58c2ab17fd265f472",
+      "imageUrl": "https://i.pinimg.com/474x/60/3b/b0/603bb0b6cb53cfe58c2ab17fd265f472.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941797013/"
+    },
+    {
+      "id": "pinterest-new-74",
+      "name": "藤编落地灯角落",
+      "group": "interior-detail",
+      "temperature": "neutral",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "藤编落地灯位于窗边，浅色墙面和简洁座椅形成克制角落。",
+      "light": "窗光从侧后方照入，灯具纹理和墙面阴影自然。",
+      "tags": [
+        "interior-detail",
+        "neutral",
+        "medium"
+      ],
+      "signature": "a3a39cf3284f149fca651e39bd584f9a",
+      "imageUrl": "https://i.pinimg.com/474x/a3/a3/9c/a3a39cf3284f149fca651e39bd584f9a.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796987/"
+    },
+    {
+      "id": "pinterest-new-75",
+      "name": "干枝花瓶与米色墙面",
+      "group": "minimal-living",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "米色墙面和极简地面，花瓶插着干燥芦苇与枝条，大面积留白。",
+      "light": "柔和斜光落在花瓶和墙面，阴影轻淡。",
+      "tags": [
+        "minimal-living",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "f188a94267b9d3c945fb4837df1c39f8",
+      "imageUrl": "https://i.pinimg.com/474x/f1/88/a9/f188a94267b9d3c945fb4837df1c39f8.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796836/"
+    },
+    {
+      "id": "pinterest-new-76",
+      "name": "纯白极简客厅",
+      "group": "minimal-living",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "白色极简客厅只保留圆桌、椅子和绿植，墙面与地面干净。",
+      "light": "无方向性漫射光，空间通透且没有复杂道具。",
+      "tags": [
+        "minimal-living",
+        "neutral",
+        "bright",
+        "soft"
+      ],
+      "signature": "3f48a0eeb8e7144c94fa06a80b62ab92",
+      "imageUrl": "https://i.pinimg.com/474x/3f/48/a0/3f48a0eeb8e7144c94fa06a80b62ab92.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796833/"
+    },
+    {
+      "id": "pinterest-new-77",
+      "name": "空墙光影客厅",
+      "group": "light-shadow",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "strong",
+      "description": "空阔客厅只保留沙发一角，浅灰墙面上有大面积窗框和树影。",
+      "light": "强斜光穿过窗户，墙面出现清楚几何阴影。",
+      "tags": [
+        "light-shadow",
+        "neutral",
+        "bright",
+        "strong"
+      ],
+      "signature": "6aa07cf3082735c7ee7b9c40b312134c",
+      "imageUrl": "https://i.pinimg.com/474x/6a/a0/7c/6aa07cf3082735c7ee7b9c40b312134c.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796828/"
+    },
+    {
+      "id": "pinterest-new-78",
+      "name": "复古几何柜客厅",
+      "group": "retro-interior",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "70年代灵感客厅，木质矮柜、几何抽屉、彩色收纳盒和复古灯具。",
+      "light": "暖色室内光从侧方照入，木器与墙面层次浓郁。",
+      "tags": [
+        "retro-interior",
+        "warm",
+        "medium"
+      ],
+      "signature": "539d8edb562a0a68980666e36d2407bc",
+      "imageUrl": "https://i.pinimg.com/474x/53/9d/8e/539d8edb562a0a68980666e36d2407bc.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/ATZFDUGZl7mQJRG92qbPxVnYJfMQZnCh55RvU5_PuKQLb29sf7DZd5PTe-4r3IuEtlGefhM2mSywq6jF0XXaPV0/"
+    },
+    {
+      "id": "pinterest-new-79",
+      "name": "奶油弧形沙发与圆凳",
+      "group": "modern-living",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "奶油弧形大沙发与圆形地毯、玻璃置物架组成温暖现代客厅。",
+      "light": "柔和日光充满空间，浅色家具阴影轻盈。",
+      "tags": [
+        "modern-living",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "c5dda99d6c42cf8159ef47cce8dd1e39",
+      "imageUrl": "https://i.pinimg.com/474x/c5/dd/a9/c5dda99d6c42cf8159ef47cce8dd1e39.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796809/"
+    },
+    {
+      "id": "pinterest-new-80",
+      "name": "壁炉客厅与绿植",
+      "group": "warm-living",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "简约客厅有壁炉、米白座椅和大型绿植，墙面与地面低对比。",
+      "light": "侧窗暖光照亮壁炉和家具，阴影自然。",
+      "tags": [
+        "warm-living",
+        "warm",
+        "medium"
+      ],
+      "signature": "090c7cf9ed28d3d7c720edd5bc7c1962",
+      "imageUrl": "https://i.pinimg.com/474x/09/0c/7c/090c7cf9ed28d3d7c720edd5bc7c1962.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796801/"
+    },
+    {
+      "id": "pinterest-new-81",
+      "name": "洞石边桌与白陶瓶",
+      "group": "still-life",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "浅色沙发布局前放置洞石边桌，桌面摆两只白色陶瓶和干枝。",
+      "light": "柔和窗光勾勒洞石纹理和陶器轮廓。",
+      "tags": [
+        "still-life",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "d5a81364b8145bb72a083175334f373d",
+      "imageUrl": "https://i.pinimg.com/474x/d5/a8/13/d5a81364b8145bb72a083175334f373d.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941796799/"
+    },
+    {
+      "id": "pinterest-new-82",
+      "name": "埃及建筑装饰画墙",
+      "group": "art-wall",
+      "temperature": "neutral",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "浅色墙面上挂埃及建筑插画和地图，木桌摆放干枝，空间带旅行主题。",
+      "light": "均匀室内光让纸面和木桌纹理清楚。",
+      "tags": [
+        "art-wall",
+        "neutral",
+        "bright",
+        "medium"
+      ],
+      "signature": "4ef834582bbb99051507880ae83745bf",
+      "imageUrl": "https://i.pinimg.com/474x/4e/f8/34/4ef834582bbb99051507880ae83745bf.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941730071/"
+    },
+    {
+      "id": "pinterest-new-83",
+      "name": "地中海海景与柠檬静物",
+      "group": "coastal",
+      "temperature": "cool",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "米色墙面、碧蓝海景画面与陶壶柠檬组成地中海静物，色调清爽。",
+      "light": "明亮冷白日光与轻微暖反射结合，蓝色层次通透。",
+      "tags": [
+        "coastal",
+        "cool",
+        "bright",
+        "medium"
+      ],
+      "signature": "e23f0c34791ff42ae9194fef5a68bc0b",
+      "imageUrl": "https://i.pinimg.com/474x/e2/3f/0c/e23f0c34791ff42ae9194fef5a68bc0b.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941730042/"
+    },
+    {
+      "id": "pinterest-new-84",
+      "name": "木栅栏乡村花园",
+      "group": "garden",
+      "temperature": "green",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "深色木栅栏围绕繁密花园，灌木野花和藤蔓自然生长，旁边有旧金属椅。",
+      "light": "斑驳树影落在植物和地面，绿色层次丰富。",
+      "tags": [
+        "garden",
+        "green",
+        "medium"
+      ],
+      "signature": "05862c700748376755cf4e79d8cc32de",
+      "imageUrl": "https://i.pinimg.com/474x/05/86/2c/05862c700748376755cf4e79d8cc32de.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941482288/"
+    },
+    {
+      "id": "pinterest-new-85",
+      "name": "乡村花园下午茶",
+      "group": "cottage-garden",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "花园桌椅铺格纹桌布，摆放茶壶、茶杯和雏菊，周围是白漆木椅与花丛。",
+      "light": "明亮午后光穿过花园，茶杯和花瓣有柔和反光。",
+      "tags": [
+        "cottage-garden",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "70548cbbddee6121e22e2250194409d1",
+      "imageUrl": "https://i.pinimg.com/474x/70/54/8c/70548cbbddee6121e22e2250194409d1.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941482277/"
+    },
+    {
+      "id": "pinterest-new-86",
+      "name": "古典肖像画室内",
+      "group": "art-wall",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "strong",
+      "description": "深棕木质家具前挂古典肖像画，红发人物与旧木色调形成强烈对比。",
+      "light": "侧方暖光让画框和墙面色调沉稳。",
+      "tags": [
+        "art-wall",
+        "warm",
+        "medium",
+        "strong"
+      ],
+      "signature": "1bf859c14f261ae9e113c801690831e1",
+      "imageUrl": "https://i.pinimg.com/474x/1b/f8/59/1bf859c14f261ae9e113c801690831e1.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/AbDH6FnNNd_msv_vJ9aGOKdEqtLAGM0tVZpdICoSZUAiV4wmIUbiElSbxbKCX2j-IhqWRyUmk19F5fNLAsx0EwQ/"
+    },
+    {
+      "id": "pinterest-new-87",
+      "name": "绿植窗纱暖光",
+      "group": "window-seat",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "白色窗帘前摆放绿色植物，室内浅墙与自然光形成安静角落。",
+      "light": "暖白日光穿过纱帘，叶片和墙面有柔和层次。",
+      "tags": [
+        "window-seat",
+        "warm",
+        "bright",
+        "medium"
+      ],
+      "signature": "a6eb4b9ec10d9fb9e15b990e1fcf32af",
+      "imageUrl": "https://i.pinimg.com/474x/a6/eb/4b/a6eb4b9ec10d9fb9e15b990e1fcf32af.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941483063/"
+    },
+    {
+      "id": "pinterest-new-88",
+      "name": "绿树窗景与纱帘",
+      "group": "window-seat",
+      "temperature": "green",
+      "brightness": "bright",
+      "contrast": "medium",
+      "description": "宽窗被白色纱帘轻掩，窗外绿色树叶浓密，室内简单留白。",
+      "light": "明亮自然光透过树叶和窗帘，空间清透舒适。",
+      "tags": [
+        "window-seat",
+        "green",
+        "bright",
+        "medium"
+      ],
+      "signature": "91a6285b4fdb230cc57b1e72bbe43687",
+      "imageUrl": "https://i.pinimg.com/474x/91/a6/28/91a6285b4fdb230cc57b1e72bbe43687.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941483061/"
+    },
+    {
+      "id": "pinterest-new-89",
+      "name": "橄榄绿扶手椅角落",
+      "group": "interior-detail",
+      "temperature": "warm",
+      "brightness": "medium",
+      "contrast": "medium",
+      "description": "橄榄绿扶手椅位于简洁房间，旁边有干枝花瓶和浅色墙面。",
+      "light": "侧窗暖光照亮椅面织物，阴影柔和。",
+      "tags": [
+        "interior-detail",
+        "warm",
+        "medium"
+      ],
+      "signature": "f72880a45ad1c9044fcb43c5c4c0c968",
+      "imageUrl": "https://i.pinimg.com/474x/f7/28/80/f72880a45ad1c9044fcb43c5c4c0c968.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941399997/"
+    },
+    {
+      "id": "pinterest-new-90",
+      "name": "侘寂墙面与浅色窗帘",
+      "group": "minimal-living",
+      "temperature": "warm",
+      "brightness": "bright",
+      "contrast": "soft",
+      "description": "侘寂风客厅以米灰色微水泥墙和浅色窗帘为主，保留大面积安静留白。",
+      "light": "低对比漫射光让墙面纹理细腻可见。",
+      "tags": [
+        "minimal-living",
+        "warm",
+        "bright",
+        "soft"
+      ],
+      "signature": "327422465786575e2bcba502c6c00403",
+      "imageUrl": "https://i.pinimg.com/474x/32/74/22/327422465786575e2bcba502c6c00403.jpg",
+      "sourceUrl": "https://www.pinterest.com/pin/1137370080941400083/"
+    }
+  ]
+}
