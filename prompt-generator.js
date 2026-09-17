@@ -504,7 +504,7 @@ function mergeBookendBackgrounds(items, rules = {}) {
 
 async function syncPinterestBackgrounds() {
   try {
-    const response = await fetch("/backgrounds.runtime.json", { cache: "no-store" });
+    const response = await fetch("./backgrounds.runtime.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     const added = mergePinterestBackgrounds(payload.items, payload.rules);
@@ -523,7 +523,7 @@ async function syncPinterestBackgrounds() {
       if (added) showToast(`已从本地接口同步 ${added} 条背景`);
     } catch (apiError) {
       try {
-        const response = await fetch("/pinterest-backgrounds.json", { cache: "no-store" });
+        const response = await fetch("./pinterest-backgrounds.json", { cache: "no-store" });
         const payload = await response.json();
         const added = mergePinterestBackgrounds(payload.items);
         if (added && currentAnalysis) generateResults({ avoidPreviousRound: true });
@@ -537,7 +537,7 @@ async function syncPinterestBackgrounds() {
 
 async function syncBookendBackgrounds() {
   try {
-    const response = await fetch("/bookend-backgrounds.runtime.json", { cache: "no-store" });
+    const response = await fetch("./bookend-backgrounds.runtime.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     const added = mergeBookendBackgrounds(payload.items, payload.rules);
@@ -553,7 +553,7 @@ async function syncBookendBackgrounds() {
 
 async function loadBackgroundBatchRules() {
   try {
-    const response = await fetch("/background-prompt-rules.json", { cache: "force-cache" });
+    const response = await fetch("./background-prompt-rules.json", { cache: "force-cache" });
     if (!response.ok) return;
     const payload = await response.json();
     backgroundBatchRules = {
@@ -1595,7 +1595,7 @@ function addPanelStickers() {
     set.images.forEach((imageId, index) => {
       const image = document.createElement("img");
       image.className = `panel-sticker panel-sticker-${index + 1}`;
-      image.src = `/portfolio-subjects/${imageId}-web.jpg`;
+      image.src = `./portfolio-subjects/${imageId}-web.jpg`;
       image.alt = "";
       image.decoding = "async";
       panel.prepend(image);

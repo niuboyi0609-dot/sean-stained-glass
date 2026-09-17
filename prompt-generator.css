@@ -265,8 +265,8 @@ button {
   background-color: var(--navy);
   background-image:
     linear-gradient(rgba(19, 36, 61, 0.84), rgba(19, 36, 61, 0.84)),
-    url("/portfolio-bg/hummingbird-web.jpg"),
-    url("/portfolio-bg/athena-web.jpg");
+    url("./portfolio-bg/hummingbird-web.jpg"),
+    url("./portfolio-bg/athena-web.jpg");
   background-repeat: no-repeat;
   background-position:
     center,
